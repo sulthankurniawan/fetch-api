@@ -47,6 +47,13 @@ class NewsController extends Controller
         }
     }
 
+    public function news()
+    {
+        $news = Http::get('https://newsapi.org/v2/top-headlines?country=id&apiKey=9e156d80708c4c3fbf18c17d260f4a70');
+        // Get all data from api
+        return view('news', ['news_json' => json_decode($news), 'news' => $news]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

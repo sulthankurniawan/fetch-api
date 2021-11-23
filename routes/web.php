@@ -20,3 +20,5 @@ Route::get('/health', [App\Http\Controllers\NewsController::class, 'index'])->na
 Route::get('/science', [App\Http\Controllers\NewsController::class, 'index'])->name('science');
 Route::get('/sports', [App\Http\Controllers\NewsController::class, 'index'])->name('sports');
 Route::get('/technology', [App\Http\Controllers\NewsController::class, 'index'])->name('technology');
+
+Route::get('/news', [App\Http\Controllers\NewsController::class, 'news'])->name('news');

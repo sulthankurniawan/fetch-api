@@ -410,7 +410,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <center>
-            <h1>Sulthan's News Blog</h1>
+            <h1 style="color:grey">Sulthan's News Blog</h1>
         </center>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
